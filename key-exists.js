@@ -1,3 +1,9 @@
+/**
+ * @description Check if key exists in object
+ * @param {object} obj - object to check for key
+ * @param {string} key - key to check for in object
+ * @returns {any | false} value of key if it exists, false otherwise
+ */
 function keyExists(obj, key) {
   if (!obj || (typeof obj !== "object" && !Array.isArray(obj))) {
     return false;

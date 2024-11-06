@@ -2,7 +2,7 @@ const getPropertyByDotNotation = require("./get-property-by-dot-notation.js");
 
 // key has to be number or datetime
 /**
- *
+ * @description Sort array of objects by key
  * @param {array} arr array of objects
  * @param {string} key key to sort by (can be in dot notation)
  * @param {ASC | DESC} order order to sort by
@@ -31,6 +31,8 @@ function sortArrayOfObjects(arr, key, order) {
     return b[key] - a[key];
   });
 }
+
+module.exports = sortArrayOfObjects;
 
 // const arr = [
 //   {
