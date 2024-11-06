@@ -1,5 +1,5 @@
 /**
- * @description Check if key exists in object
+ * @description Check if key exists in object and give back value if exists and false if not
  * @param {object} obj - object to check for key
  * @param {string} key - key to check for in object
  * @returns {any | false} value of key if it exists, false otherwise
