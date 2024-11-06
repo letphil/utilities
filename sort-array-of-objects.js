@@ -33,28 +33,3 @@ function sortArrayOfObjects(arr, key, order) {
 }
 
 module.exports = sortArrayOfObjects;
-
-const arr = [
-  {
-    name: "a",
-    skills: {
-      javascript: 10,
-      python: 8,
-    },
-  },
-  {
-    name: "b",
-    skills: {
-      javascript: 7,
-      python: 8,
-    },
-  },
-  {
-    name: "c",
-    skills: {
-      javascript: 6,
-      python: 8,
-    },
-  },
-];
-console.log(sortArrayOfObjects(arr, "skills.javascript", "ASC"));
